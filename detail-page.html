@@ -144,18 +144,38 @@
         <div class="bg-light p-4 mb-4 rounded border-start border-3 border-primary">
             <h1 class="mb-2">終結月經貧困：愛女孩NGO的布衛生棉計畫在非洲偏鄉帶來改變</h1>
         </div>
-        <div class="row g-4">
-            <div class="col-6">
-                <div class="rounded overflow-hidden">
-                    <img src="img/i3zshdgbh9tk07bcgpk1iekei3biwd.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+        <style>
+            .rounded.overflow-hidden {
+                height: 300px; /* 设置固定高度 */
+            }
+    
+            .rounded.overflow-hidden img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* 图像填充容器 */
+            }
+    
+            .row.g-4 .col-6 {
+                display: flex;
+                align-items: center;
+            }
+        </style> 
+    
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/i3zshdgbh9tk07bcgpk1iekei3biwd.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="rounded overflow-hidden">
-                    <img src="img/images (1).png" class="img-zoomin img-fluid rounded w-100" alt="">
+                <div class="col-6">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/images (1).png" class="img-zoomin img-fluid rounded w-100" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+</div>
         <p class="my-4">背景<br><br>
              在非洲偏鄉地區，許多女性因為缺乏衛生教育知識和經濟收入過低而受到月經貧困的困擾。月經貧困指的是女性在月經期間無法獲得足夠的衛生用品和必要的衛生設施，導致她們在這段時間裡面臨諸多挑戰，包括缺席學校和工作、面臨健康風險等。由於貧困和文化禁忌，這些問題在許多非洲偏鄉地區尤其嚴重。<br>
         </p>
@@ -163,18 +183,65 @@
             為了解決這一問題，NGO組織「愛女孩」在非洲推行了一項布衛生棉計畫。這項計畫旨在通過以下幾個方面改善女性的月經衛生：</br>
         </p>
         </p>
-        <p class="my-4">
-            布衛生棉的推廣與製作:<br><br>
-            與一次性生理用品相比，布衛生棉不僅經濟實惠，而且可以重複使用，減少環境污染。愛女孩組織不僅提供布衛生棉，還教導當地女性如何自製這些用品，確保她們能夠持續獲得所需物品。
-        </p>
-                        <p class="my-4">
-                            衛生教育的普及：<br><br>
-                            組織還邀請當地的護士和衛生專家到社區進行衛生教育，教授女性如何正確使用和清潔布衛生棉，並提供有關月經健康的知識。這不僅提高了女性的衛生意識，還有助於打破圍繞月經的文化禁忌。
-                        </p>
-                         <p class="my-4">
-                            社會環境的改善：<br><br>
-                            通過與社區領袖和學校合作，推動社會對月經問題的重視和支持，創造一個更加友善和包容的環境。這些努力幫助減少了月經貧困帶來的污名，使女性能夠更加自信地面對月經問題。
-                         </p>
+        <style>
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col {
+                display: flex;
+                flex: 1 0 50%;
+            }
+            .card {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            .card-body {
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/article-6168eaece92ef.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">布衛生棉的推廣與製作</h5>
+                            <p class="card-text">不僅經濟實惠，還能重複使用減少環境污染，並通過教導當地女性自製這些用品來確保持續供應。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/3865825-PH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">衛生教育的普及</h5>
+                            <p class="card-text">提高了女性的衛生意識和月經健康知識</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/article-6166418a849a4.jpg" class="card-img-top img-fluid" alt="..." style="height: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">社會環境的改善</h5>
+                            <p class="card-text">促使更多人關注和支持月經問題，打破文化禁忌。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                </div>
+                
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
                         
         </div>
         <p class="my-4">成果<br><br>
@@ -199,18 +266,22 @@
 </div>
 </div>
                         
-        <p class="my-4">
-            減少缺勤率：布衛生棉計畫有效地減少了女性因經濟原因而缺席學校或工作的情況，確保她們能夠持續參與教育和職場活動。
-        </p>
-                        <p class="my-4">
-                            經濟負擔的減輕：使用布衛生棉大大降低了女性在月經期間的經濟負擔，這對於收入本就有限的家庭來說尤為重要。
-                         </p>
-                         <p class="my-4">
-                            健康和自尊的提高：通過衛生教育和對月經問題的重視，女性的健康狀況得到了改善，同時自尊心也得到了提升。她們變得更加自信，能夠更加積極地參與社會活動。
-                         </p>
-                         <p class="my-4">
-                            環境影響：推廣使用可重複利用的布衛生棉還有助於減少廢棄物，對環境保護也做出了貢獻。
-                        </p>
+<p class="my-4">
+    <i class="bi bi-arrow-right-short"></i>
+    減少缺勤率：布衛生棉計畫有效地減少了女性因經濟原因而缺席學校或工作的情況，確保她們能夠持續參與教育和職場活動。
+</p>
+<p class="my-4">
+    <i class="bi bi-arrow-right-short"></i>
+    經濟負擔的減輕：使用布衛生棉大大降低了女性在月經期間的經濟負擔，這對於收入本就有限的家庭來說尤為重要。
+</p>
+<p class="my-4">
+    <i class="bi bi-arrow-right-short"></i>
+    健康和自尊的提高：通過衛生教育和對月經問題的重視，女性的健康狀況得到了改善，同時自尊心也得到了提升。她們變得更加自信，能夠更加積極地參與社會活動。
+</p>
+<p class="my-4">
+    <i class="bi bi-arrow-right-short"></i>
+    環境影響：推廣使用可重複利用的布衛生棉還有助於減少廢棄物，對環境保護也做出了貢
+
                          
                         <div class="bg-light p-4 mb-4 rounded border-start border-3 border-primary">
                             <h1 class="mb-2">糧食危機應對：多國技術轉型與創新農業解決蛋荒問題</h1>
@@ -218,12 +289,12 @@
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="rounded overflow-hidden">
-                                    <img src="img/img/EP79雞蛋變子彈podcast-0928.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    <img src="img/EP79雞蛋變子彈podcast-0928.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="rounded overflow-hidden">
-                                    <img src="img/img/JieTu_2021-04-16_XiaWu7.41.17.png" class="img-zoomin img-fluid rounded w-100" alt="">
+                                    <img src="img/JieTu_2021-04-16_XiaWu7.41.17.png" class="img-zoomin img-fluid rounded w-100" alt="">
                                 </div>
                             </div>
                         </div>
@@ -234,126 +305,286 @@
                         <p class="my-4">實踐<br><br>
                              各國主要以投資農業技術轉型提升糧食供應鏈面對極端氣候的勒性:
                         </p>
-                        <div class="d-flex">
-                            <div class="me-2">
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                            </div>
-                            <div class="ms-2">
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                            </div>
-                        </div>
-                        <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ther took It has survived not only five centuries, but also the leap into electronic
-                        </p>
-                            </div>
-                            <div class="tab-content">
-                                <div id="tab-1" class="tab-pane fade show active">
-                                    <div class="row g-4 align-items-center">
+                        <style>
+                            .container {
+                                display: flex;
+                                flex-wrap: wrap;
+                            }
+                            .row {
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 100%;
+                            }
+                            .col {
+                                display: flex;
+                                flex: 1 0 50%;
+                                padding: 15px;
+                            }
+                            .card {
+                                display: flex;
+                                flex-direction: column;
+                                flex: 1;
+                                height: 100%;
+                            }
+                            .card-body {
+                                flex: 1;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/images (3).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">台灣</h5>
+                                            <p class="card-text">轉型農電共生</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/images (4).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">日本</h5>
+                                            <p class="card-text">精緻農業</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/25c9709326_m.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">荷蘭</h5>
+                                            <p class="card-text">溫室栽培環控系統、人工光源</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/images (5).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">以色列</h5>
+                                            <p class="card-text">智能灌溉系統(冷凝、科學灌溉高效用水)</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                </div>
-                            </div>
-                        </div>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
                 </div>
             </div>
         </div>
         <!-- Single Product End -->
           <!-- Single Product Start -->
-                        <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        
                         <p class="my-4">
                             成果<br><br>
                             通過上述措施，各國在應對糧食危機方面取得了顯著成果：
                         </p>
                         <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
                             減少價值鏈中食物的浪費:通過優化生產和供應鏈管理，減少食物從生產到消費過程中的浪費，提高整體糧食利用率。
                         </p>
-                                        <p class="my-4">
-                                            推動供應鏈轉型:投資和技術創新不僅提高了農業生產效率，還促進了供應鏈的現代化和可持續發展，增強了抵禦極端氣候和市場波動的能力。
-                                         </p>
-                                         <p class="my-4">
-                                            提高食品安全和質量:精緻農業和生態農業技術的應用，提高了農產品的質量和安全性，滿足了市場對高品質食品的需求。
-                                         </p>
-                                         <p class="my-4">
-                                            提高農民收入和生活質量:農業技術轉型和可持續農業實踐提高了農民的生產效率和收入，改善了他們的生活質量，促進了農村經濟的發展。
-                                        </p>
-                                        <p class="my-4">
-                                           
-                                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            推動供應鏈轉型:投資和技術創新不僅提高了農業生產效率，還促進了供應鏈的現代化和可持續發展，增強了抵禦極端氣候和市場波動的能力。
+                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            提高食品安全和質量:精緻農業和生態農業技術的應用，提高了農產品的質量和安全性，滿足了市場對高品質食品的需求。
+                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            提高農民收入和生活質量:農業技術轉型和可持續農業實踐提高了農民的生產效率和收入，改善了他們的生活質量，促進了農村經濟的發展。
+                        </p>
+                        
                         <p class="my-4">
                             這些努力展示了在面對糧食危機和供應鏈挑戰時，各國通過技術創新和合作可以取得的積極成果。通過持續推動農業現代化和可持續發展，我們可以建立更強大、更有韌性的糧食系統，保障全球糧食安全。
                         </p>
-                            
+                        <style>
+                            .photo-container {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100%;
+                                max-height: 500px; /* 根据需要调整 */
+                                overflow: hidden;
+                            }
+                            .photo-container img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        </style>  
                         <div class="bg-light p-4 mb-4 rounded border-start border-3 border-primary">
                             <h1 class="mb-2">海地醫療貧困的解方：太陽能醫院助力健康與社區發展</h1>
                         </div>
                         <div class="row g-4">
                             <div class="col-6">
-                                <div class="rounded overflow-hidden">
-                                    <img src="img/img/a3c9213aab8608383dae7674eec22b29.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                <div class="photo-container rounded overflow-hidden">
+                                    <img src="img/a3c9213aab8608383dae7674eec22b29.jpg" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="rounded overflow-hidden">
-                                    <img src="img/img/images (2).jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                <div class="photo-container rounded overflow-hidden">
+                                    <img src="img/images (2).jpg" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                         </div>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
                         <p class="my-4">背景<br><br>
                             海地是世界上最貧窮的國家之一，長期受到政治不穩定、自然災害和經濟困境的困擾。這些因素加劇了該國的醫療貧困問題。對海地來說，電力是一種稀有的資源，這導致醫療機構在儀器設備供電方面面臨極大的挑戰。大部分醫療設施缺乏穩定的電力供應，這不僅影響了基本醫療服務的提供，還妨礙了應急和手術等關鍵醫療程序的實施。此外，缺乏電力也限制了醫療設備的使用和保存醫療物資的能力，進一步削弱了醫療系統的效能。
                         </p>
                         <p class="my-4">實踐<br><br>
                             為了解決這一嚴峻問題，PIH（Partners In Health）與海地衛生部共同合作，開展了一項創新性的醫療基礎設施建設計畫，主要內容包括安裝1800片太陽能板，為醫療機構提供可持續的電力供應。以下是該計畫的具體實施措施：
                         </p>
-                        <div class="d-flex">
-                            <div class="me-2">
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                            </div>
-                            <div class="ms-2">
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
-                                <span class="fas fa-check-circle mb-3 fs-5"> Lorem Ipsum is simply dummy text of</span>
+                        <style>
+                            .container {
+                                display: flex;
+                                flex-wrap: wrap;
+                            }
+                            .row {
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 100%;
+                            }
+                            .col {
+                                display: flex;
+                                flex: 1 0 50%;
+                                padding: 15px;
+                            }
+                            .card {
+                                display: flex;
+                                flex-direction: column;
+                                flex: 1;
+                                height: 100%;
+                            }
+                            .card-body {
+                                flex: 1;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <style>
+                            .container {
+                                display: flex;
+                                flex-wrap: wrap;
+                            }
+                            .row {
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 100%;
+                            }
+                            .col {
+                                display: flex;
+                                flex: 1 0 50%;
+                                padding: 15px;
+                            }
+                            .card {
+                                display: flex;
+                                flex-direction: column;
+                                flex: 1;
+                                height: 100%;
+                            }
+                            .card-body {
+                                flex: 1;
+                            }
+                            .card-img-top {
+                                max-height: 200px; /* 设置最大高度 */
+                                object-fit: cover; /* 保持图片比例 */
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/892bd69e-9640-47ab-bc6d-df0317708960-w800.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">安裝太陽能板</h5>
+                                            <p class="card-text">在主要醫療設施的屋頂上安裝1800片太陽能板，這些太陽能板能夠每天生產足夠的電力，滿足醫院日常運營和設備運行的需求。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/cs-sm8-2-2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">能源管理系統</h5>
+                                            <p class="card-text">安裝先進的能源管理系統來監控和優化電力使用，確保電能的高效分配和使用。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/9B3BABB040DA11ECB2CE7DA86A4F4E9C_1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">培訓和教育</h5>
+                                            <p class="card-text">提供有關可再生能源和能源效率的教育，提高社區對可持續能源的認識和接受度。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="img/8e0134d0e1734a2f52310bb49f980d9b.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">多部門合作</h5>
+                                            <p class="card-text">PIH和海地衛生部與當地社區領袖、國際捐助者和技術專家合作，共同推進這一項目，確保資金和技術支持的穩定來源。</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- Missing closing div for .col -->
                             </div>
                         </div>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
                         <p class="my-4">成果<br><br>
                             這項計畫取得了顯著的成果，對海地的醫療服務和社區發展產生了深遠的影響： 
                         </p>
                         <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
                             提高醫療服務質量:穩定的電力供應使得醫療設備能夠全天候運行，極大地提高了醫療服務的質量和效率。手術、急診和重症監護等關鍵醫療程序能夠在更安全和可靠的環境下進行。
                         </p>
-                                        <p class="my-4">
-                                            促進公共衛生<br><br>
-                                            由於電力供應穩定，疫苗和藥品可以在適當的溫度下保存，這大大減少了藥品損失和疾病爆發的風險。<br>
-                                            改善的醫療設施和服務吸引了更多的病人前來就診，提高了整個社區的健康水平。
-                                         </p>
-                                         <p class="my-4">
-                                            經濟和社會效益<br><br>
-                                            太陽能醫院為當地社區提供了新的就業機會，尤其是在設備安裝和維護方面。<br>
-                                            改善的醫療條件增強了居民對社區的信心和安全感，促進了當地的經濟和社會發展。
-                                         </p>
-                                         <p class="my-4">
-                                            環境效益<br><br>
-                                            通過使用清潔能源，減少了對化石燃料的依賴，降低了碳排放，促進了環境的可持續發展。<br>
-                                            該項目展示了可再生能源在發展中國家解決能源困境方面的巨大潛力，為其他貧困地區提供了寶貴的經驗和啟示。
-                                        </p>
-                                        <p class="my-4">
-                                            提升自給自足能力<br><br>
-                                            通過培訓當地技術人員，提升了社區在能源管理和醫療服務方面的自給自足能力，減少了對外部援助的依賴。<br>
-                                            當地技術人員能夠維護和管理太陽能設備，確保系統的長期運行和可持續性。
-                                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            促進公共衛生<br><br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            由於電力供應穩定，疫苗和藥品可以在適當的溫度下保存，這大大減少了藥品損失和疾病爆發的風險。<br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            改善的醫療設施和服務吸引了更多的病人前來就診，提高了整個社區的健康水平。
+                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            經濟和社會效益<br><br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            太陽能醫院為當地社區提供了新的就業機會，尤其是在設備安裝和維護方面。<br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            改善的醫療條件增強了居民對社區的信心和安全感，促進了當地的經濟和社會發展。
+                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            環境效益<br><br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            通過使用清潔能源，減少了對化石燃料的依賴，降低了碳排放，促進了環境的可持續發展。<br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            該項目展示了可再生能源在發展中國家解決能源困境方面的巨大潛力，為其他貧困地區提供了寶貴的經驗和啟示。
+                        </p>
+                        <p class="my-4">
+                            <i class="bi bi-arrow-right-short"></i>
+                            提升自給自足能力<br><br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            通過培訓當地技術人員，提升了社區在能源管理和醫療服務方面的自給自足能力，減少了對外部援助的依賴。<br>
+                            <i class="bi bi-arrow-right-short"></i>
+                            當地技術人員能夠維護和管理太陽能設備，確保系統的長期運行和可持續性。
+                        </p>
+                        
                                         <p class="my-4">
                                             海地的這一案例研究展示了如何通過創新和合作解決醫療貧困問題。通過引入可再生能源和提升醫療基礎設施，不僅改善了醫療服務質量，還促進了社區的綜合發展。這一模式可以作為其他貧困地區的範例，展示了技術和合作在解決全球醫療貧困問題中的潛力和價值。
                                         </p>
@@ -388,12 +619,6 @@
                                 <p class="text-white mb-0 display-6">Newsers</p>
                                 <small class="text-light" style="letter-spacing: 11px; line-height: 0;">Newspaper</small>
                             </a>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="d-flex position-relative rounded-pill overflow-hidden">
-                                <input class="form-control border-0 w-100 py-3 rounded-pill" type="email" placeholder="example@gmail.com">
-                                <button type="submit" class="btn btn-primary border-0 py-3 px-5 rounded-pill text-white position-absolute" style="top: 0; right: 0;">Subscribe Now</button>
-                            </div>
                         </div>
                     </div>
                 </div>
